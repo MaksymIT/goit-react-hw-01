@@ -1,0 +1,46 @@
+:root{
+    --padding: 55px;
+    --red: red;
+    --green: green;
+    --color: white;
+}
+
+.div {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.title {
+    background-color: teal;
+    color: var(--color);
+    padding: var(--padding);
+}
+
+.red {
+    background-color: var(--red);
+}
+.green {
+    background-color: var(--green);
+}
+.button {
+    padding: var(--padding);
+    background-color: teal;
+    color: var(--color);
+}
+.button:hover {
+    background-color: aquamarine;
+    color: black;
+}
+.button {
+    border: none;
+    border-radius: 75px;
+    cursor: pointer;
+}
+
+.icon {
+    width: 35px;
+    height: auto;
+}
